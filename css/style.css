@@ -1,0 +1,239 @@
+header {
+    color: black;
+    width:100%;
+}
+
+.headerAlignment {
+    display: inline-block;
+}
+
+.inline-block {
+    display: inline-block;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Lucida Sans';
+    color: black;
+    background: #FFFCF4;
+}
+
+.logo {
+    width:20%;
+    margin-left:5%;
+    float: left;
+}
+
+nav {
+    width:100%;
+    margin-right:10%;
+    text-align: right;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    width: 65%;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heroImg {
+    height: 225px;
+    width: 100%;
+    display: inline-block;
+    background-image: url("../images/Screenshot 2023-04-23 at 11.50 1.png");
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    font-family: 'Poppins';
+}
+
+p {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family:'Poppins';
+    font-weight: 900;
+}
+
+.paragraph-two {
+    width: 250px;
+}
+.paragraph-three {
+    width: 250px;
+}
+.paragraph-four {
+    width: 250px;
+}
+
+.paragraph-six {
+    width: 500px;
+}
+
+.paragraph-seven {
+    width: 500px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    width: 33%;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: left;
+    justify-content: space-between;
+
+}
+
+.column {
+    flex: 33.33%;
+    width: 200px;
+}
+
+@media (min-width: 48em) {
+    .columns {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width:100%;
+    }
+}
+
+
+  img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  p {
+    overflow: hidden;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'SF Pro Rounded';
+    font-weight: 400;
+  }
+
+  h2 {
+    text-align: center;
+    color: #C885FC;
+    font-family: 'Poppins';
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'SF Pro Rounded';
+    font-weight: 400;
+  }
+
+  h4 {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'SF Pro Rounded';
+    font-weight: 400;
+  }
+
+  h5 {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'SF Pro Rounded';
+    font-weight: 400;
+  }
+
+  .workGrid {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .image-container1 {
+    padding: 20px;
+    float: right;
+  }
+
+  .image-container2 {
+    margin-left: 150px;
+    float: right;
+    padding: 30px;
+  }
+  
+button {
+    display: block;
+    margin: 10px auto;
+    background-color: #FFFCF4;
+    padding: 10px 20px;
+    display: center;
+    border: 1px solid #C885FC;      
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+
+
+.image {
+    width: 50px;
+    height: auto; 
+  }
+  
+footer {
+    background-color: #FFFCF4;
+    padding: 0px;
+    display: center;
+    width: 100%;
+}  
+
+footer ul {
+    padding-right: 10%;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: top;
+    text-align: right;
+    float: right;
+}
+
+footer li {
+    display: inline-block;
+    display: 10px;
+    text-align: center;
+    padding: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins'
+}
+
+
+/* Media query for mobile screens */
+@media screen and (max-width: 600px) {
+.columns {
+    display: column;
+    flex-direction: column;
+    width: 100%;
+}
+.column {
+    width: 100%;
+}
+
+  }
+  
+
