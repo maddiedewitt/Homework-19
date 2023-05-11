@@ -1,1 +1,5 @@
-console.log("Your index.js file is loaded correctly");
+<script type='text/javascript'>
+$('#goTop').on('click', function(e){
+$("html, body").animate({scrollTop: $("#top").offset().top}, 500)
+});
+</script>
