@@ -32,7 +32,7 @@ nav {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
 }
 
 ul {
@@ -61,7 +61,7 @@ ul {
 p {
     width: 500px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     font-family:'Poppins';
     font-weight: 900;
 }
@@ -83,6 +83,11 @@ p {
 .paragraph-seven {
     width: 500px;
 }
+
+.paragraph-eight {
+    width: 1000px;
+}
+
 
 .columns {
     display: flex;
@@ -113,7 +118,6 @@ p {
     }
 }
 
-
   img {
     max-width: 80%;
     max-height: 80%;
@@ -121,7 +125,7 @@ p {
 
   p {
     overflow: hidden;
-    text-align: center;
+    text-align: left;
   }
   h1 {
     text-align: center;
@@ -159,7 +163,7 @@ p {
 
 
 h6 {
-    text-align: center;
+    text-align: left;
     font-size: 26px;
     font-family: 'SF Pro Rounded';
     font-weight: 400;
